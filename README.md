@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-preview-editor
 
 > A Vue.js project
@@ -16,3 +17,6 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# vue-preview-editor
+>>>>>>> fdc3b5abd81b761059247bf2153705760cea24a8
