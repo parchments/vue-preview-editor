@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // //index.js
 import PreviewEditor from './PreviewEditor'
 // // 导出模块
@@ -17,18 +16,3 @@ PreviewEditor.install = Vue => Vue.component(PreviewEditor.name, PreviewEditor);
 // //}
 
 export default PreviewEditor;
-=======
-//index.js
-import previewEditor from './PreviewEditor.vue'
-const PreviewEditor = {
-  install: function(Vue) {
-    Vue.component(previewEditor.name, previewEditor)
-  }
-}
-// global 情况下 自动安装
-if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(previewEditor)
-}
-// 导出模块
-export default PreviewEditor
->>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285

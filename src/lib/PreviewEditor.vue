@@ -35,11 +35,7 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  name: 'previewEditor',
-=======
   name: 'PreviewEditor',
->>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
   props: {
     //富文本html
     previewContent: {

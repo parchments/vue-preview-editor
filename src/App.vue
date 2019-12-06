@@ -1,23 +1,15 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
     <previewEditor :previewContent="msg" :previewTypes="types"></previewEditor>
-=======
-    <PreviewEditor :previewContent="msg" :previewTypes="types"></PreviewEditor>
->>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
   import PreviewEditor from './lib/PreviewEditor.vue'
 export default {
   components: {
     'previewEditor': PreviewEditor
   },
-=======
-export default {
->>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
   name: 'app',
   data () {
     return {
