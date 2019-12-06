@@ -1,11 +1,20 @@
 {
   "name": "vue-preview-editor",
+<<<<<<< HEAD
   "description": "A Vue.js project",
   "version": "1.0.1",
   "author": "parchments",
   "license": "MIT",
   "private": false,
   "main": "dist/previewEditor.js",
+=======
+  "description": "vue-preview-editor",
+  "version": "1.0.4",
+  "author": "parchments",
+  "license": "MIT",
+  "private": false,
+  "main":"dist/PreviewEditor.js",
+>>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -13,6 +22,7 @@
   "dependencies": {
     "vue": "^2.5.11"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/parchments/vue-preview-editor.git"
@@ -21,6 +31,8 @@
     "url": "https://github.com/parchments/vue-preview-editor/issues"
   },
   "homepage": "https://github.com/parchments/vue-preview-editor#readme",
+=======
+>>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -34,8 +46,11 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
+<<<<<<< HEAD
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+=======
+>>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",

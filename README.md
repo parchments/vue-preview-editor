@@ -13,6 +13,10 @@ npm run dev
 
 # build for production with minification
 npm run build
+<<<<<<< HEAD
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+```
+>>>>>>> 4cce886c4042be7977bd6b7e7580f4ddc545c285
